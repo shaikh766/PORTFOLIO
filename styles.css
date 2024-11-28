@@ -1,0 +1,121 @@
+.body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+background-color:rgb(86, 52, 165);
+overflow: hidden; 
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content:center ;
+    position: sticky;
+}
+
+.navbar ul li {
+    padding: 2vh 3vh ;
+}
+
+.navbar ul li a{
+    color: ghostwhite;
+    text-decoration: none;
+    font-size: 3vh;
+    display: block;
+}
+
+
+.navbar ul li a:hover {
+    background-color: darkslategray;
+}
+
+.About{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 20vh;
+    justify-content: space-around;
+    width: 80%;
+    padding: 10vh;
+    text-align: center;
+}
+
+.pic img{
+    width: 72%;
+    height: 40%;
+  border-radius: 50%;
+}
+
+.name button{
+    color: blue;
+}
+.Skills{
+justify-content: center;
+display: flex;
+height: 30vh;
+width: 30vh;
+align-items: center;
+justify-content: space-between;
+}
+
+.Skills ul{
+    display: flex;
+    justify-content:space-evenly;
+    padding: 50px;
+    gap: 35px ;
+}
+
+.Skills ul li{
+    border: 2px solid ;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    border-radius:20px ;
+    list-style: none;
+}
+
+.Project{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 20vh;
+    justify-content: space-around;
+    width: 80%;
+    padding: 10vh;
+    text-align: center;
+}
+.Skills{
+    display: flex;
+    gap: 40px ;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10vh;
+    align-items: center;
+    width: 80%;
+}
+#contact {
+    background-color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+#contact li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+#contact a {
+    color: #007bff;
+    text-decoration: none;
+}
+
